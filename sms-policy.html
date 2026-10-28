@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMS Policy | Synapse Mfg</title>
+<meta name="description" content="How Synapse Mfg obtains consent for SMS, what recipients receive, keyword responses, and how to opt out.">
+<meta name="theme-color" content="#0a0a0c">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="/ppa-site/favicon.ico" sizes="48x48">
+<link rel="icon" href="/ppa-site/favicon.png" type="image/png" sizes="256x256">
+<link rel="apple-touch-icon" href="/ppa-site/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:wght@400;500;600;700&display=swap">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Synapse Mfg">
+<meta property="og:url" content="https://www.synapsemfg.com/sms-policy.html">
+<meta property="og:title" content="SMS Policy | Synapse Mfg">
+<meta property="og:description" content="How Synapse Mfg obtains consent for SMS, what recipients receive, keyword responses, and how to opt out.">
+<meta property="og:image" content="https://www.synapsemfg.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.synapsemfg.com/"},{"@type":"ListItem","position":2,"name":"SMS Policy","item":"https://www.synapsemfg.com/sms-policy.html"}]}</script>
+<style>
+  :root {
+    --bg-primary: #0a0a0c;
+    --bg-secondary: #111114;
+    --bg-card: #16161a;
+    --border: #2a2a32;
+    --border-subtle: #1e1e26;
+    --text-primary: #e8e6e3;
+    --text-secondary: #8a8a96;
+    --text-muted: #86869a;
+    --accent: #4a9eff;
+    --accent-dim: rgba(74, 158, 255, 0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Instrument Sans', -apple-system, sans-serif;
+    line-height: 1.7;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+  }
+
+  nav[aria-label="Primary"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 0 48px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(10, 10, 12, 0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .nav-back {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  .nav-back:hover { color: var(--text-primary); }
+
+  nav[aria-label="Breadcrumb"]{position:static;height:auto;padding:0;background:none;border:0;backdrop-filter:none;display:block}nav[aria-label="Breadcrumb"] ol{list-style:none;display:flex;gap:8px;padding:0;margin:0 0 24px;font-size:13px;color:var(--text-muted)}nav[aria-label="Breadcrumb"] li+li::before{content:"/";margin-right:8px}
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 128px 48px 96px;
+  }
+
+  .doc-tag {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    background: rgba(74, 158, 255, 0.08);
+    border: 1px solid rgba(74, 158, 255, 0.2);
+    border-radius: 4px;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+  }
+
+  .updated {
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+  }
+
+  h2:first-of-type { margin-top: 0; }
+
+  p {
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    margin-bottom: 16px;
+    padding-left: 24px;
+  }
+
+  li {
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  a:hover { text-decoration: underline; }
+
+  .opt-in-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 32px;
+    margin: 32px 0;
+  }
+
+  .opt-in-box h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+  }
+
+  .step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+
+  .step-num {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--accent-dim);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .step-content { flex: 1; }
+
+  .step-content p { margin-bottom: 4px; }
+
+  .sample-msg {
+    font-family: inherit;
+    font-size: 13px;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    color: var(--text-primary);
+  }
+
+  .keyword-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 24px 0;
+  }
+
+  .keyword-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .keyword-label {
+    font-family: inherit;
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .keyword-card p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 48px;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    justify-content: space-between;
+    font-family: inherit;
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 768px) {
+    nav[aria-label="Primary"] { padding: 0 24px; }
+    main { padding: 112px 24px 64px; }
+    h1 { font-size: 32px; }
+    .keyword-grid { grid-template-columns: 1fr; }
+    footer { flex-direction: column; gap: 12px; padding: 24px; text-align: center; }
+  }
+
+  /* SMS opt-in form */
+  .optin { margin-top: 48px; padding: 28px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg-card); }
+  .optin h2 { margin-top: 0; }
+  .optin-brand { font-size: 13px; color: var(--text-secondary); margin: 0 0 18px; }
+  .optin-grid { display: grid; gap: 14px; }
+  .optin label.field { display: grid; gap: 6px; font-size: 13px; font-weight: 600; color: var(--text-secondary); }
+  .optin input[type=text], .optin input[type=email], .optin input[type=tel] { width: 100%; background: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; font: inherit; font-size: 15px; }
+  .optin input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .optin-consent { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.6; color: var(--text-primary); margin: 6px 0; }
+  .optin-consent input { margin-top: 4px; flex: none; width: 16px; height: 16px; accent-color: var(--accent); }
+  .optin-disclosure { font-size: 13px; color: var(--text-secondary); margin: 14px 0 0; line-height: 1.6; }
+  .optin-disclosure a { color: var(--accent); }
+  .optin button { margin-top: 18px; background: var(--accent); color: #000; border: 0; border-radius: 8px; padding: 12px 22px; font: inherit; font-weight: 600; cursor: pointer; }
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip-link{position:absolute;left:-999px;top:8px;background:var(--accent);color:#000;padding:8px 12px;border-radius:6px;z-index:2000;text-decoration:none;font-weight:600}.skip-link:focus{left:8px}a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}main p a,main li a,main td a{text-decoration:underline;text-underline-offset:2px}
+</style>
+<style id="ppa-theme">
+:root{--bg-primary:#070b16;--bg-secondary:#0b1120;--bg-card:#0f182b;--bg-card-hover:#142038;--border:rgba(255,255,255,.14);--border-subtle:rgba(255,255,255,.10);--border-strong:rgba(255,255,255,.32);--text-primary:rgba(255,255,255,.92);--text-secondary:rgba(255,255,255,.72);--text-muted:rgba(255,255,255,.62);--accent:#4a9eff;--accent-dim:rgba(74,158,255,.14);--accent-glow:rgba(74,158,255,.35);--green:#34d399}
+body{font-family:'Inter',-apple-system,sans-serif;background:radial-gradient(1100px 760px at 0% 0%,rgba(44,58,104,.55) 0%,rgba(7,11,22,0) 62%) no-repeat,#070b16}
+h1,h2,h3,.section-title,.proof-number,.result-stat-number,.ppa-out-num,.tl-title,.dash-head,.hero-preview-head,.pipe-open,.donut-center strong{font-family:'Cal Sans','Inter',sans-serif;font-weight:400;letter-spacing:0}
+h1,.page-hero h1,.hero h1{font-weight:400;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,rgba(255,255,255,.92) 0%,#4a9eff 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-tag,.section-tag,.included-title,.tl-day,.logo-row-label,.sector-label,.result-stat-label,.proof-label,.ppa-out-label,.ppa-field label{font-family:'Inter',sans-serif;font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.btn-primary,.nav-cta,.mobile-bar .btn-primary{background:rgba(74,158,255,.14);border:1px solid rgba(74,158,255,.35);color:#4a9eff;box-shadow:none}
+.btn-primary:hover,.nav-cta:hover{background:rgba(74,158,255,.26);color:#fff}
+.btn-ghost{border-color:rgba(255,255,255,.14);color:var(--text-secondary)}
+.included-list li::before{content:"\2713";background:none;width:auto;height:auto;top:0;color:var(--green);font-weight:700;font-size:15px;line-height:1.5}
+.ppa-check li::before{color:var(--green)}
+.live-dot{background:var(--green)}
+.tl-card,.result-stat,.dash-panel,.hero-preview,.faq-item,.ppa-tile,.ppa-out,.ppa-calc-box{background:var(--bg-card);border-color:var(--border-subtle)}
+.ppa-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.ppa-tile{border:1px solid var(--border-subtle);border-radius:12px;padding:24px}
+.ppa-tile .ppa-tile-k{display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:var(--accent);margin-bottom:10px}
+.ppa-tile .ppa-tile-k i{width:10px;height:10px;border-radius:50%;background:var(--green);flex:none}
+.ppa-tile h3{font-size:22px;margin:0 0 8px;color:var(--text-primary)}
+.ppa-tile p{margin:0;color:var(--text-secondary);font-size:15px;line-height:1.6}
+.ppa-rule{max-width:760px;margin:26px auto 0;text-align:center;color:var(--text-secondary);font-size:16px;line-height:1.65}
+.ppa-calc{max-width:1100px;margin:36px auto 0}
+.ppa-calc-box{border:1px solid var(--border-subtle);border-radius:16px;padding:28px}
+.ppa-calc-title{font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:var(--accent);margin:0 0 18px}
+.ppa-calc-inputs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ppa-field label{display:block;font-size:12px;color:var(--text-muted);margin-bottom:8px}
+.ppa-field input{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid var(--border-strong);border-radius:8px;background:rgba(255,255,255,.04);color:var(--text-primary);font:inherit;font-size:18px;font-variant-numeric:tabular-nums}
+.ppa-field input:focus{outline:2px solid var(--accent);outline-offset:2px}
+.ppa-calc-out{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.ppa-out{border:1px solid var(--border-subtle);border-radius:12px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:6px}
+.ppa-out-num{font-size:34px;color:var(--text-primary);line-height:1.1;font-variant-numeric:tabular-nums}
+.ppa-out-label{font-size:11.5px;color:var(--text-muted);line-height:1.45}
+.ppa-calc-note{margin:18px 0 0;color:var(--text-secondary);font-size:14px;line-height:1.6}
+.ppa-calc-note b{color:var(--green);font-weight:600}
+@media (max-width:860px){.ppa-grid3,.ppa-calc-inputs,.ppa-calc-out{grid-template-columns:1fr}.ppa-calc-box{padding:22px 18px}}
+
+/* site-wide additions 2026-10-28 */
+.nav-links a{font-weight:500}
+.btn-primary,.nav-cta{box-shadow:0 0 0 1px rgba(74,158,255,.35),0 0 22px rgba(74,158,255,.26);animation:glow 2.8s ease-in-out infinite}
+.btn-primary.btn-lg{box-shadow:0 0 0 1px rgba(74,158,255,.45),0 0 38px rgba(74,158,255,.38)}
+.btn-primary:hover,.nav-cta:hover{box-shadow:0 0 0 1px rgba(74,158,255,.7),0 0 34px rgba(74,158,255,.5)}
+@keyframes glow{0%,100%{box-shadow:0 0 0 1px rgba(74,158,255,.35),0 0 18px rgba(74,158,255,.22)}50%{box-shadow:0 0 0 1px rgba(74,158,255,.6),0 0 30px rgba(74,158,255,.42)}}
+.hero-actions{margin:30px 0 0}
+.hero-note,.cta-note.hero-note{margin-top:16px}
+.cta-section .section-desc{margin-bottom:36px}
+.cta-section .cta-body{margin-top:10px}
+.cta-section .cta-note{margin-top:26px}
+.page-hero .hero-actions{margin-top:26px}
+.footer-grid.three{grid-template-columns:2fr 1fr 1fr}
+.dfy{margin:26px 0 0;padding:18px 20px;border:1px solid rgba(74,158,255,.35);border-radius:12px;background:rgba(74,158,255,.10)}
+.dfy-line{font-family:'Cal Sans','Inter',sans-serif;font-size:20px;color:var(--text-primary);margin:0 0 12px}
+.steps3{list-style:none;margin:0;padding:0;display:flex;gap:10px;flex-wrap:wrap}
+.steps3 a{display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 8px;border-radius:999px;background:var(--bg-card);border:1px solid var(--border);color:var(--text-primary);text-decoration:none;font-size:14px;font-weight:600}
+.steps3 a:hover{border-color:rgba(74,158,255,.5);color:#fff}
+.steps3 i{width:26px;height:26px;border-radius:50%;background:var(--accent);color:#061020;font-style:normal;font-size:13px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.hero-proof{margin-top:30px}
+.mq-wrap{margin:0 -24px;display:flex;flex-direction:column;gap:22px}
+.mq{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 12%,#000 88%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0%,#000 12%,#000 88%,transparent 100%)}
+.mq-track{display:flex;align-items:center;gap:64px;width:max-content;padding-right:64px;animation:mq 70s linear infinite}
+.mq.rev .mq-track{animation-direction:reverse;animation-duration:84s}
+.mq:hover .mq-track{animation-play-state:paused}
+.mq-track img{height:30px;width:auto;max-width:none;display:block;flex:none;object-fit:contain;opacity:1;filter:none}
+.mq-track img.sq{height:40px}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+#results .logo-row-label,#proof .logo-row-label{text-align:center;color:var(--accent);margin:34px 0 22px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+.logo-more{text-align:center;margin-top:18px;color:var(--text-secondary)}
+.how-link{text-align:center;margin-top:28px}
+.ppa-calc{max-width:1100px;margin:36px auto 0}
+.ppa-calc-box{border:1px solid var(--border-subtle);border-radius:16px;padding:28px;background:var(--bg-card)}
+.ppa-calc-title{font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:var(--accent);margin:0 0 18px}
+.ppa-calc-inputs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.ppa-calc-inputs.two{grid-template-columns:1fr 1fr;max-width:640px}
+.ppa-calc-out.three{grid-template-columns:repeat(3,1fr)}
+.included-note{margin:16px 0 0;font-size:14px;color:var(--text-secondary)}
+.ppa-field label{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px}
+.ppa-field input{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid var(--border-strong);border-radius:8px;background:rgba(255,255,255,.04);color:var(--text-primary);font:inherit;font-size:18px;font-variant-numeric:tabular-nums}
+.ppa-field input:focus{outline:2px solid var(--accent);outline-offset:2px}
+.adv{margin-top:16px;border-top:1px solid var(--border-subtle);padding-top:12px}
+.adv summary{cursor:pointer;font-size:13px;color:var(--text-secondary);font-weight:500;list-style:none}
+.adv summary::-webkit-details-marker{display:none}
+.adv summary::before{content:"+ ";color:var(--accent)}
+.adv[open] summary::before{content:"\2212 "}
+.adv .ppa-calc-inputs{margin-top:14px}
+.ppa-calc-out{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.ppa-out{border:1px solid var(--border-subtle);border-radius:12px;padding:18px;background:var(--bg-secondary);display:flex;flex-direction:column;gap:6px}
+.ppa-out-num{font-family:'Cal Sans','Inter',sans-serif;font-size:32px;color:var(--text-primary);line-height:1.1;font-variant-numeric:tabular-nums}
+.ppa-out-label{font-size:11.5px;color:var(--text-muted);line-height:1.45;letter-spacing:.04em;text-transform:uppercase}
+.ppa-flag{margin:16px 0 0;padding:10px 14px 10px 36px;position:relative;border:1px solid rgba(52,211,153,.35);border-radius:8px;background:rgba(52,211,153,.06);color:var(--text-secondary);font-size:14px}
+.ppa-flag::before{content:"\2713";position:absolute;left:14px;top:9px;color:var(--green);font-weight:700}
+.ppa-flag.bad{border-color:rgba(248,113,113,.35);background:rgba(248,113,113,.06)}
+.ppa-flag.bad::before{content:"!";color:#f87171}
+.ppa-calc-note{margin:16px 0 0;color:var(--text-secondary);font-size:14px}
+.ppa-calc-note b{color:var(--green);font-weight:600}
+.hiw{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:14px;counter-reset:hiw}
+.hiw li{position:relative;padding:24px 24px 24px 76px;border:1px solid var(--border-subtle);border-radius:14px;background:var(--bg-card)}
+.hiw li::before{counter-increment:hiw;content:counter(hiw);position:absolute;left:24px;top:24px;width:36px;height:36px;border-radius:50%;background:var(--accent);color:#061020;font-weight:700;font-size:16px;display:flex;align-items:center;justify-content:center}
+.prose .hiw h3{margin:0 0 8px;font-size:24px;line-height:1.15}
+.prose .hiw p{margin:0;color:var(--text-secondary)}
+.prose .hiw p+p{margin-top:8px}
+.hiw-extra{margin-top:16px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.cal-logos{display:flex;align-items:center;gap:28px;flex-wrap:wrap;margin-top:16px}
+.cal-logos img{height:34px;width:auto;opacity:.95}
+.cal-logos span{font-size:13px;color:var(--text-muted)}
+.video-card{display:inline-flex;align-items:center;gap:16px;margin-top:16px;padding:10px 16px 10px 10px;border:1px solid rgba(74,158,255,.35);border-radius:12px;background:var(--bg-secondary);color:var(--text-primary);text-decoration:none;font-weight:600;font-size:15px;max-width:100%}
+.video-card img{width:120px;height:68px;object-fit:cover;border-radius:8px;flex:none}
+.video-card .play{width:34px;height:34px;border-radius:50%;background:var(--accent);color:#061020;display:inline-flex;align-items:center;justify-content:center;font-size:13px;flex:none}
+.video-card:hover{border-color:rgba(74,158,255,.7)}
+.hiw-dfy{margin:0;text-align:center;font-family:'Cal Sans','Inter',sans-serif;font-size:clamp(24px,3vw,34px);color:var(--text-primary)}
+.ppa-ten{color:var(--green);font-weight:600}
+@media (max-width:900px){.ppa-calc-inputs,.ppa-calc-out,.ppa-calc-out.three{grid-template-columns:1fr 1fr}.footer-grid.three{grid-template-columns:1fr}}
+@media (max-width:560px){.ppa-calc-inputs,.ppa-calc-out,.ppa-calc-inputs.two,.ppa-calc-out.three{grid-template-columns:1fr}.ppa-calc-box{padding:22px 18px}.mq-track{gap:40px}.hiw li{padding:20px 18px 20px 64px}.hiw li::before{left:16px;top:20px;width:32px;height:32px}}
+
+/* fonts, everywhere */
+.nav-links a,.nav-cta,.btn-primary,.btn-ghost,input,button,summary,.footer-col,.faq-item summary,.meet-row,.hero-preview-head,.section-tag,.tl-day,.proof-strip{font-family:'Inter',-apple-system,sans-serif}
+h1,h2,h3,.section-title,.tl-title,.result-stat-number,.proof-number,.ppa-out-num,.dash-head,.hiw-dfy,.dfy-line{font-family:'Cal Sans','Inter',sans-serif;font-weight:400}
+/* live meetings feed (hero card) */
+.meet-list,.meet-row{overflow:hidden}
+.meet-row.enter{animation:meetIn .6s cubic-bezier(.2,.8,.2,1) both;--d:.6s;--n:1}
+.meet-row.leave{animation:meetOut .45s ease both;--d:.45s;--n:1}
+@keyframes meetIn{from{opacity:0;transform:translateY(-16px);max-height:0;padding-top:0;padding-bottom:0}to{opacity:1;transform:none;max-height:90px}}
+@keyframes meetOut{from{opacity:1;max-height:90px}to{opacity:0;transform:translateY(8px);max-height:0;padding-top:0;padding-bottom:0}}
+.meet-status{transition:color .35s,border-color .35s,background-color .35s;--t:.35s}
+/* how it works: one section per step */
+.hiw-sec{max-width:1100px;margin:0 auto;padding:64px 24px}
+.hiw-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.hiw-grid.flip .hiw-text{order:2}
+.hiw-text .section-tag{justify-content:flex-start;margin-bottom:12px}
+.hiw-text h2{font-size:clamp(28px,3.2vw,40px);margin:0 0 14px;line-height:1.12;letter-spacing:-.01em}
+.hiw-text p{color:var(--text-secondary);font-size:17px;line-height:1.6;margin:0}
+.hiw-text p+p{margin-top:10px}
+.hiw-text .cal-logos{margin-top:20px}
+.vis{position:relative;border:1px solid var(--border-subtle);border-radius:16px;background:var(--bg-card);padding:26px;min-height:300px;display:flex;flex-direction:column;justify-content:center;gap:14px;overflow:hidden}
+.vis .k{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:500}
+.vis .tag{align-self:flex-start;padding:7px 12px;border-radius:8px;border:1px solid rgba(52,211,153,.4);background:rgba(52,211,153,.08);color:var(--green);font-size:13px;font-weight:600}
+.vis:not(.in) *{animation-play-state:paused!important}
+.v1 .bar,.v5 .pipe div{display:grid;grid-template-columns:120px 1fr;align-items:center;gap:12px;font-size:13px;color:var(--text-secondary)}
+.v1 .bar b,.v5 .pipe b{display:block;height:10px;border-radius:5px;background:var(--border)}
+.v1 .bar b i,.v5 .pipe b i{display:block;height:100%;width:var(--w);border-radius:5px;background:var(--accent);transform-origin:left;animation:fill 6s ease-in-out infinite;animation-delay:calc(var(--i)*.45s);--d:6s}
+@keyframes fill{0%{transform:scaleX(0)}22%,82%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.v1 .tag{animation:popIn 6s ease infinite;--d:6s}
+@keyframes popIn{0%,38%{opacity:0;transform:translateY(8px)}48%,86%{opacity:1;transform:none}100%{opacity:0}}
+.v2 ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.v2 li{display:flex;align-items:center;gap:12px;font-size:15px;color:var(--text-muted);animation:v2li 7s infinite;animation-delay:calc(var(--i)*.9s);--d:7s}
+.v2 li i{width:22px;height:22px;border-radius:50%;border:1px solid var(--border-strong);display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-size:12px;color:var(--green);flex:none}
+.v2 li i::after{content:"\2713";transform:scale(0);animation:v2chk 7s infinite;animation-delay:calc(var(--i)*.9s);--d:7s}
+@keyframes v2li{0%,10%{color:var(--text-muted)}14%,85%{color:var(--text-primary)}100%{color:var(--text-muted)}}
+@keyframes v2chk{0%,10%{transform:scale(0)}14%,85%{transform:scale(1)}100%{transform:scale(0)}}
+.v2 .prog{height:8px;border-radius:4px;background:var(--border);overflow:hidden;margin-top:8px}
+.v2 .prog i{display:block;height:100%;background:var(--green);transform-origin:left;animation:v2prog 7s linear infinite;--d:7s}
+@keyframes v2prog{0%{transform:scaleX(0)}58%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.v3 .line{font-size:15px;color:var(--text-primary);white-space:nowrap;overflow:hidden;width:0;max-width:100%;border-right:2px solid var(--accent);padding-right:4px;box-sizing:border-box;animation:type 9s steps(44) infinite;animation-delay:calc(var(--i)*1.9s);--d:9s}
+.v3 .line.b{color:var(--text-secondary)}
+@keyframes type{0%{width:0}18%,88%{width:100%}100%{width:0}}
+.v4 .days,.v4 .dn{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
+.v4 .days i{height:10px;border-radius:5px;background:var(--border);animation:v4day 8s infinite;animation-delay:calc(var(--i)*.35s);--d:8s}
+@keyframes v4day{0%{background:var(--border)}6%,80%{background:var(--accent)}100%{background:var(--border)}}
+.v4 .dn{font-size:11px;color:var(--text-muted);text-align:center}
+.v4 .marks{display:grid;gap:8px;margin-top:6px}
+.v4 .marks div{display:flex;gap:10px;align-items:center;font-size:14px;color:var(--text-muted);animation:v4mark 8s infinite;animation-delay:var(--t);--d:8s}
+.v4 .marks div i{width:9px;height:9px;border-radius:50%;background:var(--green);flex:none}
+@keyframes v4mark{0%{opacity:.35}6%,80%{opacity:1;color:var(--text-primary)}100%{opacity:.35}}
+.v5 .pipe{display:grid;gap:8px}
+.v5 .wave{display:flex;align-items:flex-end;gap:3px;height:44px;margin-top:6px}
+.v5 .wave i{flex:1;background:var(--green);border-radius:2px;height:100%;transform-origin:bottom;transform:scaleY(.3);animation:wave 1.3s ease-in-out infinite;animation-delay:calc(var(--i)*.06s);--d:1.3s;opacity:.85}
+@keyframes wave{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(var(--h,1))}}
+.v6 .slots{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.v6 .slots span{padding:10px;border:1px solid var(--border-subtle);border-radius:8px;text-align:center;font-size:13px;color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.v6 .slots span.pick{animation:v6pick 8s infinite;--d:8s}
+@keyframes v6pick{0%,12%{background:transparent;color:var(--text-secondary);border-color:var(--border-subtle)}20%,85%{background:var(--accent);color:#061020;border-color:var(--accent)}100%{background:transparent}}
+.v6 .step{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--text-primary);animation:v6step 8s infinite;animation-delay:var(--t);--d:8s;opacity:0}
+.v6 .step i{color:var(--green);font-style:normal;font-weight:700}
+@keyframes v6step{0%,30%{opacity:0;transform:translateY(6px)}38%,85%{opacity:1;transform:none}100%{opacity:0}}
+.v7 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.v7 .tile{aspect-ratio:4/3;border-radius:10px;background:var(--bg-secondary);border:1px solid var(--border-subtle);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;font-size:12px;color:var(--text-secondary);text-align:center;padding:6px}
+.v7 .tile i{width:34px;height:34px;border-radius:50%;background:var(--border)}
+.v7 .tile.nt{border-color:rgba(52,211,153,.5);animation:v7join 9s infinite;--d:9s;transform:scale(.6);opacity:0}
+.v7 .tile.nt i{background:var(--green)}
+@keyframes v7join{0%,18%{transform:scale(.6);opacity:0}26%,90%{transform:scale(1);opacity:1}100%{opacity:0}}
+.v7 .mail{padding:12px 14px;border-radius:10px;border:1px solid rgba(74,158,255,.35);background:var(--bg-secondary);font-size:13px;color:var(--text-primary);animation:v7mail 9s infinite;--d:9s;opacity:0}
+.v7 .mail b{color:var(--accent);font-weight:600}
+@keyframes v7mail{0%,55%{opacity:0;transform:translateY(10px)}63%,92%{opacity:1;transform:none}100%{opacity:0}}
+.v8 .ledger{display:grid;gap:8px}
+.v8 .ledger div{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 12px;border:1px solid var(--border-subtle);border-radius:8px;font-size:13.5px;color:var(--text-secondary);animation:v8row 9s infinite;animation-delay:var(--t);--d:9s;opacity:0}
+.v8 .ledger b{font-weight:600;color:var(--text-primary)}
+.v8 .ledger .ok{color:var(--green)}.v8 .ledger .zero{color:var(--text-muted)}
+@keyframes v8row{0%,8%{opacity:0;transform:translateX(-10px)}14%,88%{opacity:1;transform:none}100%{opacity:0}}
+.v8 .sw{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-primary);margin-top:6px}
+.v8 .sw i{width:42px;height:24px;border-radius:12px;background:var(--border);position:relative;display:inline-block;animation:v8sw 9s infinite;--d:9s}
+.v8 .sw i::after{content:"";position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fff;animation:v8knob 9s infinite;--d:9s}
+@keyframes v8knob{0%,60%{left:3px}68%,92%{left:21px}100%{left:3px}}
+@keyframes v8sw{0%,60%{background:var(--border)}68%,92%{background:var(--green)}100%{background:var(--border)}}
+.video{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#000;margin-top:26px}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-note{font-size:13px;color:var(--text-muted);margin-top:10px;text-align:center}
+@media (max-width:860px){.hiw-grid{grid-template-columns:1fr;gap:24px}.hiw-grid.flip .hiw-text{order:0}.vis{min-height:0}.hiw-sec{padding:48px 20px}}
+u.q{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:4px;color:inherit}
+/* decorative motion stays on even when the OS asks for reduced motion (Dylan's call); hover still pauses the logo bars */
+@media (prefers-reduced-motion:reduce){.mq-track,.meet-row.enter,.meet-row.leave,.btn-primary,.nav-cta,.motion-ok,.motion-ok *,.motion-ok ::before,.motion-ok ::after{animation-duration:var(--d,1s)!important;animation-iteration-count:var(--n,infinite)!important;transition-duration:var(--t,.35s)!important}.mq-track{--d:70s}.mq.rev .mq-track{--d:84s}.btn-primary,.nav-cta{--d:2.8s}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<nav aria-label="Primary">
+  <a href="/ppa-site/" class="nav-logo">Synapse Mfg</a>
+  <a href="/ppa-site/" class="nav-back">← Back to home</a>
+</nav>
+
+<main id="content">
+  <span class="doc-tag">Legal</span>
+  <nav aria-label="Breadcrumb"><ol><li><a href="/ppa-site/">Home</a></li><li aria-current="page">SMS Policy</li></ol></nav>
+  <h1>SMS Messaging Policy</h1>
+  <div class="updated">Last updated: September 20, 2026</div>
+
+  <h2>Overview</h2>
+  <p>Synapse Mfg operates outbound sales programs on behalf of industrial manufacturing clients. Our sales representatives contact prospects via phone, email, and LinkedIn. SMS is used only with express consent, obtained in one of two ways: through the consent checkboxes on the <a href="#opt-in">SMS opt-in form</a> on this page or our request information form, or when a prospect explicitly asks for materials by text during an active sales conversation and confirms by reply. Messages are limited to what was requested, such as capabilities overviews, case studies, and appointment confirmations.</p>
+
+  <h2>How Prospects Opt In</h2>
+  <p><strong>Method 1: website form.</strong> On the <a href="#opt-in">SMS opt-in form at the bottom of this page</a> or on our request information page, a visitor enters a mobile number and ticks a clearly labeled, unchecked consent box that states the message types, that frequency varies up to 4 messages per month, that message and data rates may apply, the STOP and HELP keywords, and that consent is not a condition of purchase. The submission, including the consent selections and timestamp, is recorded.</p><p><strong>Method 2: verbal request with text confirmation.</strong> Consent is obtained through a clear, two-step verbal-plus-text confirmation process during an active sales conversation:</p>
+
+  <div class="opt-in-box">
+    <h3>Opt-In Process</h3>
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <p><strong>Prospect Request</strong></p>
+        <p>During a phone call, email exchange, or LinkedIn conversation, a prospect explicitly requests that materials be sent via text message (e.g., "text me the brochure" or "send the spec sheet to my mobile").</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <p><strong>Documented Consent</strong></p>
+        <p>Our representative records the prospect's name, phone number, date, and method of consent in our internal CRM before any SMS is sent.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <p><strong>Confirmation Text</strong></p>
+        <p>The prospect receives a one-time confirmation text:</p>
+        <div class="sample-msg">Reply YES to confirm you'd like to receive the materials you requested via text from Synapse Mfg. Msg &amp; data rates may apply. Reply STOP to opt-out.</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <p><strong>Materials Sent</strong></p>
+        <p>Only after the prospect replies YES does Synapse Mfg send the requested materials via SMS or MMS.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>What Prospects Receive</h2>
+  <p>SMS messages from Synapse Mfg are limited to materials a prospect has specifically requested. Examples include:</p>
+  <ul>
+    <li>Capabilities brochures and company overviews</li>
+    <li>Product or equipment spec sheets</li>
+    <li>Case studies and reference documents</li>
+    <li>Brief follow-up notes related to materials previously sent</li>
+  </ul>
+  <p>Message frequency varies, up to 4 messages per month. Promotional messages are sent only to people who ticked the separate promotional consent box on a website form; Synapse Mfg does not send bulk SMS campaigns to anyone who has not opted in.</p>
+
+  <h2>Keyword Responses</h2>
+
+  <div class="keyword-grid">
+    <div class="keyword-card">
+      <div class="keyword-label">REPLY: HELP</div>
+      <p>Thank you for contacting Synapse Mfg. For support, email dylan@synapsemfg.com or visit synapsemfg.com. Reply STOP to opt-out.</p>
+    </div>
+    <div class="keyword-card">
+      <div class="keyword-label">REPLY: STOP</div>
+      <p>You have successfully opted out of messages from Synapse Mfg. You will receive no further messages. Reply START to resubscribe.</p>
+    </div>
+  </div>
+
+  <h2>Data Privacy</h2>
+  <p>Phone numbers and SMS opt-in consent collected by Synapse Mfg are not shared with third parties or affiliates for marketing or promotional purposes. SMS opt-in is obtained separately from any other communication channel and is treated as a distinct consent under our <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h2>Message and Data Rates</h2>
+  <p>Standard message and data rates may apply based on your mobile carrier and service plan. Synapse Mfg does not charge recipients to receive SMS messages.</p>
+
+  <h2>Age Requirement</h2>
+  <p>The Synapse Mfg SMS program is intended for business contacts who are 18 years of age or older. By opting in, you confirm that you are at least 18.</p>
+
+  <h2>Carrier Disclaimer</h2>
+  <p>Wireless carriers are not liable for delayed or undelivered messages.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>Synapse Mfg may update this SMS Policy from time to time. The "Last updated" date at the top of this page indicates the most recent revision.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about our SMS practices, opt-in process, or to request manual opt-out, contact us at:</p>
+  <p>
+    Synapse Mfg (Radiant Digital, LLC)<br>
+    Email: <a href="mailto:dylan@synapsemfg.com">dylan@synapsemfg.com</a><br>
+    Address: 7230 Via Luria, Lake Worth, FL 33467<br>
+    Phone: <a href="tel:+15615069230">(561) 506-9230</a><br>
+    Website: <a href="https://www.synapsemfg.com/">synapsemfg.com</a>
+  </p>
+
+  <section class="optin" id="opt-in" aria-labelledby="optin-title">
+    <h2 id="optin-title">SMS Opt-In Form</h2>
+    <p class="optin-brand">Business name: Radiant Digital, LLC, doing business as Synapse Mfg. Use this form to opt in to text messages from Radiant Digital, LLC (Synapse Mfg). Opting in is optional and is not a condition of purchase.</p>
+    <form action="https://formsubmit.co/dylan@synapsemfg.com" method="POST">
+      <input type="hidden" name="_subject" value="SMS opt-in from synapsemfg.com/sms-policy">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://www.synapsemfg.com/request-information/thanks/">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="optin-grid">
+        <label class="field" for="oi-name">Full name<input id="oi-name" name="Full name" type="text" required autocomplete="name"></label>
+        <label class="field" for="oi-email">Email<input id="oi-email" name="Email" type="email" required autocomplete="email"></label>
+        <label class="field" for="oi-phone">Mobile phone number<input id="oi-phone" name="Mobile phone" type="tel" required autocomplete="tel" placeholder="(555) 555-5555"></label>
+      </div>
+      <label class="optin-consent"><input type="checkbox" name="SMS consent (informational)" value="Yes"> <span>I agree to receive informational text messages from Radiant Digital, LLC, doing business as Synapse Mfg, about my request, including follow-ups and appointment confirmations, at the mobile number provided. Message frequency varies, up to 4 messages per month. Message and data rates may apply. Reply STOP to opt out at any time. Reply HELP for help. Consent is not a condition of purchase.</span></label>
+      <label class="optin-consent"><input type="checkbox" name="SMS consent (promotional)" value="Yes"> <span>I agree to receive promotional and marketing text messages from Radiant Digital, LLC, doing business as Synapse Mfg, about cold calling and appointment setting for manufacturers at the mobile number provided. Message frequency varies, up to 4 messages per month. Message and data rates may apply. Reply STOP to opt out at any time. Reply HELP for help. Consent is not a condition of purchase.</span></label>
+      <p class="optin-disclosure">Message types: informational messages about your request and appointment confirmations, and, with the separate promotional consent above, marketing messages about Synapse Mfg services. Message frequency: varies, up to 4 messages per month. Message and data rates may apply. Opt out: reply STOP to any message to stop receiving texts from Radiant Digital, LLC (Synapse Mfg). Help: reply HELP or call <a href="tel:+15615069230">(561) 506-9230</a>. Both checkboxes are optional. Mobile information is not shared with third parties or affiliates for marketing or promotional purposes. See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms &amp; Conditions</a>.</p>
+      <button type="submit">Submit opt-in</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-grid three">
+    <div class="footer-col"><div class="footer-brand">Synapse Mfg</div><p class="footer-tag">Pay-per-appointment cold calling for manufacturers. 100% done for you; you just take the meetings.</p><p class="footer-tag footer-phone"><a href="tel:+15615069230">(561) 506-9230</a></p><p class="footer-tag">Site last reviewed October 17, 2026.</p><div class="footer-logins"><a class="footer-login" href="https://synapse-ops-dashboard.vercel.app/rep-dashboards" rel="nofollow noopener">Employee login</a><a class="footer-login" href="https://synapse-ops-dashboard.vercel.app/client/login" rel="nofollow noopener">Client login<span>See your campaign, call activity and appointments set</span></a></div></div>
+    <div class="footer-col"><p class="footer-heading">Company</p><ul><li><a href="/ppa-site/how-it-works/">How it works</a></li><li><a href="/ppa-site/#pricing">How pricing is set</a></li><li><a href="/ppa-site/#faq">Questions manufacturers ask</a></li><li><a href="/ppa-site/blog/">Blog</a></li><li><a href="/ppa-site/about/">About Synapse Mfg</a></li><li><a href="https://cal.com/synapsemfg/30min" target="_blank" rel="noopener">Book a call<span class="sr-only"> (opens in a new tab)</span></a></li></ul></div>
+    <div class="footer-col"><p class="footer-heading">Legal</p><ul><li><a href="/ppa-site/privacy.html">Privacy Policy</a></li><li><a href="/ppa-site/terms.html">Terms &amp; Conditions</a></li><li><a href="/ppa-site/sms-policy.html">SMS Policy</a></li><li><a href="/ppa-site/accessibility/">Accessibility</a></li></ul>
+      <div class="footer-social"><a href="https://www.linkedin.com/company/synapsemfg/" rel="noopener noreferrer" target="_blank" aria-label="Synapse Mfg on LinkedIn (opens in a new tab)"><svg width="20" height="20" viewBox="0 0 18 19" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_li)"><path d="M16.6676 0.666992H1.32891C0.594141 0.666992 0 1.24707 0 1.96426V17.3662C0 18.0834 0.594141 18.667 1.32891 18.667H16.6676C17.4023 18.667 18 18.0834 18 17.3697V1.96426C18 1.24707 17.4023 0.666992 16.6676 0.666992ZM5.34023 16.0057H2.66836V7.41348H5.34023V16.0057ZM4.0043 6.24277C3.14648 6.24277 2.45391 5.5502 2.45391 4.6959C2.45391 3.8416 3.14648 3.14902 4.0043 3.14902C4.85859 3.14902 5.55117 3.8416 5.55117 4.6959C5.55117 5.54668 4.85859 6.24277 4.0043 6.24277ZM15.3387 16.0057H12.6703V11.8291C12.6703 10.8342 12.6527 9.55098 11.2816 9.55098C9.89297 9.55098 9.68203 10.6373 9.68203 11.7588V16.0057H7.01719V7.41348H9.57656V8.5877H9.61172C9.9668 7.9127 10.8387 7.19902 12.1359 7.19902C14.8395 7.19902 15.3387 8.97793 15.3387 11.2912V16.0057Z" fill="currentColor"/></g><defs><clipPath id="clip0_li"><rect width="18" height="18" fill="white" transform="translate(0 0.666992)"/></clipPath></defs></svg></a><a href="https://www.youtube.com/@synapsemfg" rel="noopener noreferrer" target="_blank" aria-label="Synapse Mfg on YouTube (opens in a new tab)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg></a><a href="https://www.facebook.com/profile.php?id=61582276070226" rel="noopener noreferrer" target="_blank" aria-label="Synapse Mfg on Facebook (opens in a new tab)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a><a href="https://www.instagram.com/synapsemfg/" rel="noopener noreferrer" target="_blank" aria-label="Synapse Mfg on Instagram (opens in a new tab)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a></div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
